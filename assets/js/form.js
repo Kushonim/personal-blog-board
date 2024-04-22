@@ -4,7 +4,7 @@ var titleEl = document.getElementById('title');
 var contentEl = document.getElementById('content');
 
 
-
+// A function that has the submit button capture the user input and then redirect you to the blog board
 btnEl.addEventListener('click', function(event) {
     event.preventDefault();
 
