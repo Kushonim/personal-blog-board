@@ -1,7 +1,7 @@
 const postedSection = document.querySelector(".blogPage");
 const blogBoard = JSON.parse(localStorage.getItem("blogPosts")) || [];
 
-
+// A conditional that checks whether or not the blog board contains any posts or not and displays accordingly
 if (blogBoard.length === 0) {
     const emptyBoard = document.createElement("h2");
     emptyBoard.classList.add("noPosts");

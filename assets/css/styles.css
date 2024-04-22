@@ -30,6 +30,7 @@ body {
     padding-right: 50px;
 }
 
+/* Styles and fits message into circle object*/
 #welcomeMsg {
     padding-left: 45%;
     font-size: 4em;
@@ -38,6 +39,7 @@ body {
     color: #EEE2DC;
 }
 
+  /* Creating a circle using CSS and having it be a background object*/
 .circle {
     height: 500px;
     width: 500px;
@@ -77,11 +79,13 @@ button:hover {
     opacity: 80%;
 }
 
+  /* Add a highlight to the light/dark mode button on mouse-over */
 #pageModeSelect:hover {
     opacity: 45%;
     cursor: pointer;
 }
 
+/* Styling Blog Post link */
 .blogPostButton {
     font-size: .5em;
 }
@@ -93,7 +97,7 @@ button:hover {
         height: 22em;
         width: 10em;
         position: absolute;
-        bottom: 9em;
+        bottom: 32em;
         left: .01em;
     }
 
@@ -120,7 +124,7 @@ button:hover {
         height: 18em;
         width: 18em;
         position: absolute;
-        bottom: 10em;
+        bottom: 35em;
         left: .2em;
     }
 
@@ -144,7 +148,7 @@ button:hover {
         height: 18em;
         width: 18em;
         position: absolute;
-        bottom: 10em;
+        bottom: 35em;
         left: 2em;
     }
     
@@ -171,7 +175,7 @@ button:hover {
         height: 25em;
         width: 25em;
         position: absolute;
-        bottom: 5em;
+        bottom: 30em;
         left: 2em;
     }
     
@@ -194,7 +198,7 @@ button:hover {
         height: 30em;
         width: 30em;
         position: absolute;
-        bottom: 1.5em;
+        bottom: 25em;
         left: 2em;
     }
     
