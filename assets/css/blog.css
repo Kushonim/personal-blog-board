@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEE2DC;
+}
+
+nav {
+    border-bottom: 5px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: serif;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding-right: 20px;
+    z-index: 10;
+}
+
+.backButton {
+    padding-right: 20px;
+}
+
+nav > p {
+    display:block;
+    justify-content: flex-start;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+section > div {
+    border-bottom: 2px solid #123C69;
+}
+
+footer {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+#pageModeSelect:hover {
+    opacity: 45%;
+    cursor: pointer;
+}
+

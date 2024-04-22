@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Bout' It</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- <script defer src="assets/js/form.js"></script>  -->
+</head>
+<body>
+    <header>
+        <h1>EUREKA! <span id="pageModeSelect"style="font-size: .5em;"></span> <a class="blogPostButton" href="blog.html">Blog Posts</a></h1>
+        <div class="vLine"></div>
+    </header>
+    <main id="flexBoxes">
+        <section class="content">
+            <div class="circle"></div>
+            <p id="welcomeMsg">Got <br>Something <br>On Your <br>Mind? 🧠</p>
+        </section>
+        <section class="content">
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" name="user_name" id="username">
+                
+                <label for="title">Title:</label>
+                <input type="text" name="user_title" id="title">
+                
+                <label for="content">Content:</label>
+                <input type="text" name="content_input" id="content">
+                
+                <button type="submit" value="Submit" id="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
+</body>
+</html>

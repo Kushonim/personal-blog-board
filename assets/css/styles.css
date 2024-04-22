@@ -1,0 +1,212 @@
+h1 {
+    border-bottom: 5px solid black;
+    padding-bottom: 2%;
+    text-align: center;
+    align-items: center center;
+    margin-bottom: 0px;
+    font-family: serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEE2DC;
+}
+
+.vLine {
+    border-left: 5px solid black;
+    height: 98%;
+    left: 50%;
+    position: absolute;
+ }
+
+#flexBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content {
+    margin-top: 5%;
+    max-width: 40%;
+    padding-right: 50px;
+}
+
+#welcomeMsg {
+    padding-left: 45%;
+    font-size: 4em;
+    font-family: sans-serif;
+    text-wrap: nowrap;
+    color: #EEE2DC;
+}
+
+.circle {
+    height: 500px;
+    width: 500px;
+    background-color: #AC3B61;
+    border-radius: 100%;
+    z-index: -1000;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+/* Style inputs */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+/* Style the submit button */
+button {
+    width: 100%;
+    background-color: #123C69;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  /* Add a highlight to the submit button on mouse-over */
+button:hover {
+    opacity: 80%;
+}
+
+#pageModeSelect:hover {
+    opacity: 45%;
+    cursor: pointer;
+}
+
+.blogPostButton {
+    font-size: .5em;
+}
+
+/* Extra small devices (phones, 320px and up) */
+@media only screen and (min-width: 320px) {
+    
+    .circle {
+        height: 22em;
+        width: 10em;
+        position: absolute;
+        bottom: 9em;
+        left: .01em;
+    }
+
+    #welcomeMsg {
+        font-size: 2em;
+        padding-left: .2em;
+        padding-top: 3em;
+    }
+
+    form {
+        padding-top: 3em;
+        padding-left: 1.2em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 3em;
+        padding-bottom: 1em;
+    }
+
+    .circle {
+        height: 18em;
+        width: 18em;
+        position: absolute;
+        bottom: 10em;
+        left: .2em;
+    }
+
+    #welcomeMsg {
+        font-size: 2em;
+        padding-left: 2em;
+        padding-top: 1em;
+    }
+
+    form {
+        padding-top: 2em;
+        padding-left: 1.2em;
+    }
+
+    }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .circle {
+        height: 18em;
+        width: 18em;
+        position: absolute;
+        bottom: 10em;
+        left: 2em;
+    }
+    
+    #welcomeMsg {
+        font-size: 2em;
+        padding-left: 3em;
+        padding-top: 1em;
+    }
+
+    form {
+        padding-top: 1em;
+        padding-left: 1.2em;
+    }
+    }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 3em;
+        padding-bottom: 1em;
+    }
+
+    .circle {
+        height: 25em;
+        width: 25em;
+        position: absolute;
+        bottom: 5em;
+        left: 2em;
+    }
+    
+    #welcomeMsg {
+        font-size: 3em;
+        padding-left: 2.5em;
+        padding-top: .2em;
+    }
+
+    form {
+        padding-top: 1em;
+        padding-left: 1.2em;
+    }
+    }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .circle {
+        height: 30em;
+        width: 30em;
+        position: absolute;
+        bottom: 1.5em;
+        left: 2em;
+    }
+    
+    #welcomeMsg {
+        font-size: 3.5em;
+        padding-left: 2.5em;
+        padding-top: 0em;
+    }
+
+    form {
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 3em;
+    }
+    }
